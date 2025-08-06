@@ -1,0 +1,175 @@
+#Tabela {
+    border:3px solid #202020;
+    border-radius:10px;
+    font-size:25px;
+    box-shadow:5px 5px 5px #505050;
+    margin:0 auto;
+}
+
+tr,td,th {
+    border-collapse:collapse;
+    border:3px solid #202020;
+    text-align:center;
+    padding:5px;
+    width:120px;
+}
+
+#AdicionarRefri {
+    width:120px;
+    font-size:20px;
+    border-radius:5px;
+}
+
+#AdicionarRefri:hover {
+    cursor:pointer;
+    box-shadow:3px 3px 3px #505050;
+}
+
+#AdicionarSuco {
+    width:120px;
+    font-size:20px;
+    border-radius:5px;
+}
+
+#AdicionarSuco:hover {
+    cursor:pointer;
+    box-shadow:3px 3px 3px #505050;
+}
+
+#AdicionarPizza {
+    width:120px;
+    font-size:20px;
+    border-radius:5px;
+}
+
+#AdicionarPizza:hover {
+    cursor:pointer;
+    box-shadow:3px 3px 3px #505050;
+}
+
+#AdicionarCoxinha {
+    width:120px;
+    font-size:20px;
+    border-radius:5px;
+}
+
+#AdicionarCoxinha:hover {
+    cursor:pointer;
+    box-shadow:3px 3px 3px #505050;
+}
+
+#AdicionarSalada {
+    width:120px;
+    font-size:20px;
+    border-radius:5px;
+}
+
+#AdicionarSalada:hover {
+    cursor:pointer;
+    box-shadow:3px 3px 3px #505050;
+}
+
+#FinalizarPedido {
+    font-size:20px;
+    width:200px;
+    height:50px;
+    border-radius:5px;
+    margin-left:45%;
+}
+
+#FinalizarPedido:hover {
+    cursor:pointer;
+    box-shadow:5px 5px 5px #505050;
+}
+
+#RemoverRefri {
+    width:120px;
+    font-size:20px;
+    border-radius:5px;
+}
+
+#RemoverRefri:hover {
+    cursor:pointer;
+    box-shadow:3px 3px 3px #505050;
+}
+
+#RemoverSuco {
+    width:120px;
+    font-size:20px;
+    border-radius:5px;
+}
+
+#RemoverSuco:hover {
+    cursor:pointer;
+    box-shadow:3px 3px 3px #505050;
+}
+
+#RemoverPizza {
+    width:120px;
+    font-size:20px;
+    border-radius:5px;
+}
+
+#RemoverPizza:hover {
+    cursor:pointer;
+    box-shadow:3px 3px 3px #505050;
+}
+
+#RemoverCoxinha {
+    width:120px;
+    font-size:20px;
+    border-radius:5px;
+}
+
+#RemoverCoxinha:hover {
+    cursor:pointer;
+    box-shadow:3px 3px 3px #505050;
+}
+
+#RemoverSalada {
+    width:120px;
+    font-size:20px;
+    border-radius:5px;
+}
+
+#RemoverSalada:hover {
+    cursor:pointer;
+    box-shadow:3px 3px 3px #505050;
+}
+
+#PedidoFinal {
+    height:400px;
+    width:500px;
+    border:3px solid black;
+    border-radius:10px;
+    margin:0 auto;
+    display:none;
+}
+
+#informacoes {
+    margin-left:30px;
+}
+
+#linhaRefri {
+    font-size:20px;
+}
+
+#linhaSuco {
+    font-size:20px;
+}
+
+#linhaPizza {
+    font-size:20px;
+}
+
+#linhaCoxinha {
+    font-size:20px;
+}
+
+#linhaSalada {
+    font-size:20px;
+}
+
+#ValorTotal {
+    font-size:20px;
+}

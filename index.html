@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <table id="Tabela">
+        <tr>
+            <th>Alimentos:</th>
+            <th>Refrigerante</th>
+            <th>Sucos</th>
+            <th>Pizza</th>
+            <th>Coxinha</th>
+            <th>Salada</th>
+        </tr>
+        <tr>
+            <td>Preço:</td>
+            <td>5,00</td>
+            <td>5,00</td>
+            <td>10,00</td>
+            <td>7,00</td>
+            <td>5,00</td>
+        </tr>
+        <tr>
+            <td>Adicionar:</td>
+            <td><button onclick="adicionarRefri()" id="AdicionarRefri">+1 refri</button></td>
+            <td><button onclick="adicionarSuco()" id="AdicionarSuco">+1 suco</button></td>
+            <td><button onclick="adicionarPizza()" id="AdicionarPizza">+1 pizza</button></td>
+            <td><button onclick="adicionarCoxinha()" id="AdicionarCoxinha">+1 coxinha</button></td>
+            <td><button onclick="adicionarSalada()" id="AdicionarSalada">+1 salada</button></td>
+        </tr>
+        <tr>
+            <td>Remover:</td>
+            <td><button onclick="removerRefri()" id="RemoverRefri">-1 refri</button></td>
+            <td><button onclick="removerSuco()" id="RemoverSuco">-1 suco</button></td>
+            <td><button onclick="removerPizza()" id="RemoverPizza" >-1 pizza</button></td>
+            <td><button onclick="removerCoxinha()" id="RemoverCoxinha">-1 coxinha</button></td>
+            <td><button onclick="removerSalada()" id="RemoverSalada">-1 salada</button></td>
+        </tr>
+        <tr>
+            <th>Valor por item:</th>
+            <th><p id="resultadoRefri"></p></th>
+            <th><p id="resultadoSuco"></p></th>
+            <th><p id="resultadoPizza"></p></th>
+            <th><p id="resultadoCoxinha"></p></th>
+            <th><p id="resultadoSalada"></p></th>
+        </tr>
+        <tr>
+            <th>Quantidade:</th>
+            <th id="QuantidadeRefri"></th>
+            <th id="QuantidadeSuco"></th>
+            <th id="QuantidadePizza"></th>
+            <th id="QuantidadeCoxinha"></th>
+            <th id="QuantidadeSalada"></th>
+        </tr>
+    </table>
+    <br><br>
+    <button onclick="ResumoDoPedido()" id="FinalizarPedido">Enviar pedido</button>
+    <br><br>
+    <div id="PedidoFinal">
+        <div id="informacoes">
+        <h2>Seu pedido foi de:</h2>
+        <br>
+        <p id="linhaRefri"></p>
+        <p id="linhaSuco"></p>
+        <p id="linhaPizza"></p>
+        <p id="linhaCoxinha"></p>
+        <p id="linhaSalada"></p>
+        <p id="ValorTotal"></p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
